@@ -1,0 +1,231 @@
+{
+  "contractName": "TokenFarm",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/E/Learning/BlockChain/fintech-dapp/src/contracts/TokenFarm.sol\":\"TokenFarm\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/Learning/BlockChain/fintech-dapp/src/contracts/TokenFarm.sol\":{\"keccak256\":\"0x507f5b1778e4912764f324d88b4e8703cdf8833acd5bc716867f67f561f3ba32\",\"urls\":[\"bzz-raw://e465e9b8f8b912faa793c14975b85c47558f2eb43a5928601847ef90e16ee54d\",\"dweb:/ipfs/QmWN7DUmhnb6QLNXfCquFfyW9U8Uj1tXK2QWRWYQCQqG47\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600f81526020017f4461707020546f6b656e204661726d00000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b610186806101166000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a723158204402acb0a53fd16471f1de9e21a799104b54ca93593cda13ce2e8bcde7d5791f64736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c806306fdde0314610030575b600080fd5b6100386100b3565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561007857808201518184015260208101905061005d565b50505050905090810190601f1680156100a55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101495780601f1061011e57610100808354040283529160200191610149565b820191906000526020600020905b81548152906001019060200180831161012c57829003601f168201915b50505050508156fea265627a7a723158204402acb0a53fd16471f1de9e21a799104b54ca93593cda13ce2e8bcde7d5791f64736f6c63430005100032",
+  "sourceMap": "35:76:1:-;;;63:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;35:76;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:76:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "35:76:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:76:1;;;;;;;;;;;;;;;;;;;63:38;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;63:38:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.5.0 <0.8.0;\r\n\r\ncontract TokenFarm {\r\n\r\n    string public name = \"Dapp Token Farm\";\r\n    \r\n}",
+  "sourcePath": "E:/Learning/BlockChain/fintech-dapp/src/contracts/TokenFarm.sol",
+  "ast": {
+    "absolutePath": "/E/Learning/BlockChain/fintech-dapp/src/contracts/TokenFarm.sol",
+    "exportedSymbols": {
+      "TokenFarm": [
+        190
+      ]
+    },
+    "id": 191,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 186,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 190,
+        "linearizedBaseContracts": [
+          190
+        ],
+        "name": "TokenFarm",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 189,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 190,
+            "src": "63:38:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 187,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "63:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4461707020546f6b656e204661726d",
+              "id": 188,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "84:17:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_112892b16fc49edc60aefbde9609f7bfe1cf220ba7ef93ec6845dbc0b0b30cd5",
+                "typeString": "literal_string \"Dapp Token Farm\""
+              },
+              "value": "Dapp Token Farm"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 191,
+        "src": "35:76:1"
+      }
+    ],
+    "src": "0:111:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/E/Learning/BlockChain/fintech-dapp/src/contracts/TokenFarm.sol",
+      "exportedSymbols": {
+        "TokenFarm": [
+          190
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0",
+            "<",
+            "0.8",
+            ".0"
+          ]
+        },
+        "id": 186,
+        "name": "PragmaDirective",
+        "src": "0:31:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            190
+          ],
+          "name": "TokenFarm",
+          "scope": 191
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "name",
+              "scope": 190,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "string",
+                  "type": "string"
+                },
+                "id": 187,
+                "name": "ElementaryTypeName",
+                "src": "63:6:1"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "4461707020546f6b656e204661726d",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "string",
+                  "type": "literal_string \"Dapp Token Farm\"",
+                  "value": "Dapp Token Farm"
+                },
+                "id": 188,
+                "name": "Literal",
+                "src": "84:17:1"
+              }
+            ],
+            "id": 189,
+            "name": "VariableDeclaration",
+            "src": "63:38:1"
+          }
+        ],
+        "id": 190,
+        "name": "ContractDefinition",
+        "src": "35:76:1"
+      }
+    ],
+    "id": 191,
+    "name": "SourceUnit",
+    "src": "0:111:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x9b3ce0b18FB781edDa90D51B84600FfD962B47E9",
+      "transactionHash": "0x0fb5954791be6391a729c8744e91f5bca47da0f61175a65ae8d84d10c7ab86a8"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-16T18:55:56.150Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
